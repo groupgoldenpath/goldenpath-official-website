@@ -1,0 +1,102 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quiz .box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.quiz .box .indice{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0 0  0;
+}
+
+.quiz .box .bars{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 20px 0;
+}
+.quiz .box .bars .barLineSelected{
+    width: 100px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: black;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+.quiz .box .bars .barLine{
+    width: 100px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+.quiz .box .bar {
+    width: 90%;
+}
+
+.quiz .box .bar .question {
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+}
+
+.quiz .box .bar .question .reply {
+    margin: 10px 0;
+}
+
+.quiz .box .bar .question .reply button {
+    width: 350px;
+    height: 80px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(227, 227, 227);
+    border-left: 10px solid #000;
+    color: #000;
+    text-align: left;
+    padding: 10px 5px;
+    font-size: 14px;
+
+}
+.quiz .box .bar .question .reply .selected {
+    width: 350px;
+    height: 80px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #000;
+    border-left: 10px solid #000;
+    color: #fff;
+
+}
+
+.quiz .box .bar .question  button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius:6px ;
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}

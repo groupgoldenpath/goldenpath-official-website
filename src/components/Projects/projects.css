@@ -1,0 +1,23 @@
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.projects .item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    margin: 20px;
+    padding: 10px;
+}
+

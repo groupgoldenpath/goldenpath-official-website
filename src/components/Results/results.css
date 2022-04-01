@@ -1,0 +1,22 @@
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.results .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    margin: 20px;
+}
+
