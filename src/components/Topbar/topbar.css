@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    background-color: var(--Black)
 }
 
 .topbar .top1 {
@@ -12,7 +13,7 @@
     justify-content: space-around;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #fff ;
+    border-bottom: 1px solid var(--Primary) ;
     height: 80px;
 }
 

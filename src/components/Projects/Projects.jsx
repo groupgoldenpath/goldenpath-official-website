@@ -1,8 +1,24 @@
 import './projects.css'
+import Slider from "react-slick";
 
 function Projects() {
+
+    var settings = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        autoplay:true,
+        autoplaySpeed: 5000,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        rtl: true,
+        useCSS: true,
+        variableWidth: false
+      };
+      
     return (
-    <div className="projects">
+        <Slider {...settings}>
         <div className="item">
             <h3>ROBÔS DE AUTOMAÇÃO</h3>
             <p>Nossos robôs de automação são totalmente personalizados e desenvolvidos com as melhores técnicas do mercado.</p>
@@ -39,7 +55,7 @@ function Projects() {
         <h3>GOLDEN ACADEMY</h3>
         <p>O grupo Golden Path oferece 4 cursos voltados para o mercado: B3, Forex, Opções binárias e Criptomoedas. Nestes cursos os alunos aprenderão mais sobre como funcionam os mercados, como investir com mais clareza e segurança e todos os passos necessários para operar seu próprio dinheiro sem medo.</p>
         </div>
-    </div>
+        </Slider>
     )
 }
 

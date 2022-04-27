@@ -9,18 +9,19 @@ const Ul = styled.ul`
     padding: 18px 10px;
     a{
         text-decoration: none;
-          background: -webkit-linear-gradient(#F8F377, #E7A84F);
+          background: -webkit-linear-gradient(#fff, #fff);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          font-size:15px
       }
     a:hover{
       text-decoration: none;
-        background: -webkit-linear-gradient(#eee, #333);
+        background: -webkit-linear-gradient(#CCA354, #CCA354);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     flex-flow: column nowrap;
     background-color: #000;
     position: fixed;
@@ -51,6 +52,9 @@ const RightNav = ({ open }) => {
       <li> <a href="/gpx"><b>GPX</b></a> </li>
       <li> <a href="/robos"><b>Robõs</b></a> </li>
       <li> <a href="/projetos"><b>Projetos</b></a> </li>
+      <li> <a href="/cursos"><b>Cursos</b></a> </li>
+      <li> <a href="/aplicativos"><b>Aplicativos</b></a> </li>
+      <li> <a href="/contato"><b>Contato</b></a> </li>
     </Ul>
   )
 }

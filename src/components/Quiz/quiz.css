@@ -14,9 +14,11 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    color: black;
-    background-color: aliceblue;
+    color: var(--Primary);
+    background-color: var(--Black);
     border-radius: 10px;
+    /* box-shadow: 0px 0px 20px 10px rgba(204, 163, 84, 0.2); */
+    border: 3px solid var(--Hover);
 }
 .quiz .box .indice{
     display: flex;
@@ -38,16 +40,16 @@
     width: 100px;
     height: 10px;
     margin-right: 10px;
-    background-color: black;
-    border: 1px solid #000;
+    background-color: var(--Primary);
+    border: 1px solid var(--Primary);
     border-radius: 6px;
 }
 .quiz .box .bars .barLine{
     width: 100px;
     height: 10px;
     margin-right: 10px;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgb(49, 49, 49);
     border-radius: 6px;
 }
 
@@ -59,7 +61,8 @@
     width: 100%;
     border-radius: 6px;
     padding: 20px;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(16, 16, 16);
+    margin-bottom: 10px;
 }
 
 .quiz .box .bar .question .reply {
@@ -72,7 +75,7 @@
     border: none;
     border-radius: 0 6px 6px 0;
     background-color: rgb(227, 227, 227);
-    border-left: 10px solid #000;
+    border-left: 10px solid var(--Primary);
     color: #000;
     text-align: left;
     padding: 10px 5px;
@@ -84,9 +87,9 @@
     height: 80px;
     border: none;
     border-radius: 0 6px 6px 0;
-    background-color: #000;
-    border-left: 10px solid #000;
-    color: #fff;
+    background-color: var(--Primary);
+    border-left: 10px solid var(--Primary);
+    color: var(--White);
 
 }
 
@@ -95,7 +98,7 @@
     height: 30px;
     border: none;
     border-radius:6px ;
-    background-color: #000;
+    background-color: var(--Primary);
     color: #fff;
     margin: 5px;
     cursor: pointer;

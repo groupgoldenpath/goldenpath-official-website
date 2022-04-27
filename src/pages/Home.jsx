@@ -5,6 +5,7 @@ import { Video } from "../components/Video/Video";
 import { Quiz } from "../components/Quiz/Quiz";
 import { Results } from "../components/Results/Results";
 import { Projects } from "../components/Projects/Projects";
+import "./home.css"
 
 function Home() {
     return (
@@ -13,7 +14,6 @@ function Home() {
         <Navbar />
         <Saudation />
         <Video link={"https://www.youtube.com/embed/gJyqttMFHh4"} width={560} height={315}/>
-        <Results />
         <Quiz />
         <Projects />
         </>

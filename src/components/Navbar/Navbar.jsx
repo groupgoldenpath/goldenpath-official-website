@@ -13,7 +13,7 @@ const Nav = styled.nav`
   z-index: 98;
   position: relative;
   background-color: #000;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #CCA354;
   .logo {
     padding: 15px 0;
   }

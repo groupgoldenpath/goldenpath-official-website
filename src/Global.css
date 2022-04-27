@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
+:root{
+  --Primary: #CCA354;
+  --Black: #000000;
+  --White: #ffffff;
+  --Hover: #B78B36;
+  --HoverLight: #CFA85D;
+  --Gray: #343A40;
+  --Delete:#d01616;
+  --Green:#27A444;
+}
+
 body {
   background-color: black;
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
+  background-image: url(./assets/images/backgrounds/background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
 }
+
 
 .container {
   display: flex;
