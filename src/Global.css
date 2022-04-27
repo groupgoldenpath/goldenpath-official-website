@@ -13,15 +13,17 @@
   --Gray: #343A40;
   --Delete:#d01616;
   --Green:#27A444;
+  --Gray2:rgb(49, 49, 49);  
+  --Gray3:rgb(16, 16, 16);
 }
 
 body {
   background-color: black;
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
-  background-image: url(./assets/images/backgrounds/background.png);
+  background-image: url(./assets/images/backgrounds/bit8.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size:cover;
   background-attachment: fixed;
 }
 

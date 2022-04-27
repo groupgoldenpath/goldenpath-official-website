@@ -4,12 +4,11 @@
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    background-image: url(../../assets/images/background.png);
+    background-image: url(../../assets/images/backgrounds/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 20px;
-    height:500px;
+    height:550px;
     border: none;
     border-bottom: 2px solid var(--Hover);
 }
@@ -20,7 +19,7 @@
     justify-content: center;
     flex-direction: column;
     width: 50%;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .welcome .text h1 {
     color: var(--Primary);
@@ -31,14 +30,48 @@
     text-align: center;
 }
 
-.welcome .image {
+.welcome .text .buttons {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0;
+}
+.welcome .text .buttons button {
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+    cursor: pointer;
+}
+.welcome .text .buttons button:hover {
+    background-color: var(--Hover)
+}
+.welcome .text .buttons .select {
+    background-color: var(--Hover);
+    color: var(--White);
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+    cursor: pointer;
+}
+.welcome .text .buttons .select:hover {
+    background-color: var(--Primary)
+}
+
+.welcome .image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
     width: 50%;
+    height:100%;
 }
 
 .welcome .image img {
-    width: 300px;
+    width: 85%;
 }

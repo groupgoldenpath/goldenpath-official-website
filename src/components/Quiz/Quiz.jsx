@@ -52,20 +52,14 @@ function Quiz() {
     function handleResult(e) {
         e.preventDefault();
         
-            if(question1 === "1" && question2 === "1" && question3 === "1" && question4 === "1") {
-                toast.success("Conservador")
-            } else if(question1 === "1" && question2 === "2" && question3 === "2" && question4 === "2") {
-                toast.success("Moderado")
-            }else if(question1 === "2" && question2 === "2" && question3 === "2" && question4 === "2") {
-                toast.success("Moderado")
-            }else if(question1 === "2" && question2 === "2" && question3 === "2" && question4 === "2") {
-                toast.success("Moderado")
-            }else if(question1 === "2" && question2 === "2" && question3 === "2" && question4 === "2") {
-                toast.success("Moderado")
-            }else if(question1 === "3" && question2 === "3" && question3 === "3" && question4 === "3") {
-                toast.success("Arrojado")
-            }else if(question1 === "4" && question2 === "4" && question3 === "4" && question4 === "4") {
-                toast.success("Trader")
+            if(question1 === "1" && question2 === "1" && question3 === "1") {
+                window.open("/resultado/Conservador")
+            } else if(question1 === "2" && question2 === "2" && question3 === "2") {
+                window.open("/resultado/Moderado")
+            }else if(question1 === "3" && question2 === "3" && question3 === "3") {
+                window.open("/resultado/Arrojado")
+            }else if(question1 === "4" && question2 === "4" && question3 === "4") {
+                window.open("/resultado/Trader")
             }
 
 
