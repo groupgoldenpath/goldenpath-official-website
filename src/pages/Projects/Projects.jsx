@@ -39,6 +39,9 @@ function Projects() {
                 <div className="text">
                     <h1>Golden Cast</h1>
                     <p>Este aplicativo foi desenhado para quem busca um serviço de transporte executivo presente no próprio bairro e que garanta que você e sua família serão atendidos por um motorista conhecido com segurança.</p>
+                    <div className="buttonsProjects">
+                <a href="/">Ir para o canal do youtube</a>
+            </div>
                 </div>
             </div>
 
@@ -80,7 +83,7 @@ O China bot é o melhor robô de opções binárias. Esse software opera do Tele
 
             </div>
             <div className="buttonsProjects">
-                <a href="/">Conheça nossos robôs</a>
+                <a href="/">Saiba mais sobre nossos robôs</a>
             </div>
             <Footer />
         </div>

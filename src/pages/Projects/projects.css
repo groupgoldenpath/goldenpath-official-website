@@ -71,6 +71,21 @@
     margin: 10px 0;
 }
 
+.Projects .app .text .buttonsProjects a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
 .Projects .app .text .download {
     display: flex;
     align-items: center;
