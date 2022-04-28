@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
     background-color: var(--Black);
-    border-top: 3px solid var(--Primary)
+    border-top: 1px solid var(--Primary)
 }
 .footer .blocos {
     display: flex;

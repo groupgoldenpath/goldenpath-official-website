@@ -62,6 +62,7 @@
     margin: 10px;
     background-color: var(--Gray3);
     padding: 10px;
+    border-radius: 6px;
 }
 
 .Academy .coursesAcademy .course p {

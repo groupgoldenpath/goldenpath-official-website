@@ -45,3 +45,100 @@
     border-radius: 6px;
     text-decoration: none;
 }
+.Aplications .app  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 60px 0;
+}
+.Aplications .app .text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Aplications .app .text h1 {
+    color: var(--Primary);
+}
+.Aplications .app .text img {
+    width: 150px;
+}
+.Aplications .app .text p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Aplications .app .text .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.Aplications .app .text .download img{
+    margin: 10px;
+    width: 30%;
+}
+.Aplications .app .imageApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Aplications .app .imageApp img {
+    width: 50%;
+}
+
+
+
+.Aplications .appCar  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 60px 0;
+}
+.Aplications .appCar .text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Aplications .appCar .text h1 {
+    color: var(--Primary);
+}
+.Aplications .appCar .text img {
+    width: 150px;
+}
+.Aplications .appCar .text p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Aplications .appCar .text .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.Aplications .appCar .text .download img{
+    margin: 10px;
+    width: 30%;
+}
+.Aplications .appCar .imageappCar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Aplications .appCar .imageappCar img {
+    width: 50%;
+}
