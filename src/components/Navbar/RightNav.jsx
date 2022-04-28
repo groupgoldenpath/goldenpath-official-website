@@ -50,10 +50,9 @@ const RightNav = ({ open }) => {
       <li> <a href="/rentabilidade"><b>Rentabilidade</b></a> </li>
       <li> <a href="/evolution"><b>Evolution</b></a> </li>
       <li> <a href="/gpx"><b>GPX</b></a> </li>
-      <li> <a href="/robos"><b>Robõs</b></a> </li>
       <li> <a href="/projetos"><b>Projetos</b></a> </li>
-      <li> <a href="/cursos"><b>Cursos</b></a> </li>
-      <li> <a href="/aplicativos"><b>Aplicativos</b></a> </li>
+      <li> <a href="/academy"><b>Academy</b></a> </li>
+      <li> <a href="/vipcar"><b>Vip Car</b></a> </li>
       <li> <a href="/contato"><b>Contato</b></a> </li>
     </Ul>
   )

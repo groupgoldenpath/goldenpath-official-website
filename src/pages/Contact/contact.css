@@ -4,7 +4,6 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    padding: 40px 0;
     background-color:var(--Black)
 }
 
@@ -14,8 +13,8 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    width: 90%;
-    padding: 20px;
+    width: 95%;
+    padding: 20px 0;
 }
 .contactForm .contactBlock {
     display: flex;
@@ -70,6 +69,7 @@
     height: 40px;
     margin: 5px;
     background-color:var(--Primary);
+    width: 100%;
 }
 
 .contactForm .contactBlock .formulary form .name input::placeholder {
@@ -85,7 +85,7 @@
     margin: 5px;
     background-color:var(--Primary);
 }
-.contactForm .contactBlock .formulary form select{
+.contactForm .contactBlock .formulary form .name select{
     padding: 5px 10px;
     border-radius: 6px;
     border: none;
@@ -141,7 +141,14 @@
     .contactForm .contactBlock .information .itemContact p{
         text-align: left;
         color: #e5e5e5;
-        font-size:14px
+        font-size:14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .contactForm .contactBlock .information .itemContact p svg{
+        margin-right: 5px;
     }
 
     .contactForm .contactBlock .information .social {

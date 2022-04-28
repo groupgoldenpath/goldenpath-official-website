@@ -4,7 +4,7 @@
     padding-top:40px;
     text-align: center;
 }
-.projectsHome h2 {
-    margin-bottom:20px;
+.projectsHome h1 {
     text-align: center;
+    color: var(--Primary);
 }

@@ -87,6 +87,7 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
+    background-color: var(--Gray3);
 }
 .footer .copy .dev {
     display: flex;
@@ -94,4 +95,5 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
+    background-color: var(--Gray3);
 }

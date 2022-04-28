@@ -21,9 +21,10 @@ function Contact() {
                         <input type="text" name="" id="" placeholder="Nome"/>
                         <input type="email" name="" id="" placeholder="E-mail"/>
                     </div>
-                        <input type="text" name="" id="" placeholder="Assunto"/>
+                    <div className="name">
+                        <input type="text" name="" id="" placeholder="Whatsapp"/>
                         <select name="" id="">
-                            <option value="">Serviço</option>
+                            <option value="">Sobre o que deseja conversar?</option>
                             <option value="Rentabilidade">Rentabilidade</option>
                             <option value="GPX">GPX</option>
                             <option value="Evolution">Evolution</option>
@@ -33,25 +34,26 @@ function Contact() {
                             <option value="Cursos">Cursos</option>
                             <option value="Dicas e Sujestões">Dicas e Sujestões</option>
                             <option value="Quero conhecer mais serviços">Quero conhecer mais serviços</option>
-                        </select>   
+                        </select>  
+                    </div>
+                        
                         <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
                 </form>
             </div>
             <div className="information">
                 <div className="itemContact">
                     <h3>Endereço</h3>
-                    <p><IoLocationOutline/>Avenida Saquarema, Nº 5070 </p>
-                    <p>Bacaxá - Saquarema - RJ. CEP: 28994-597</p>
-                    <p>(Em frente ao Banco do Brasil)</p>
+                    <p><IoLocationOutline/>R. da Luz - Braga </p>
+                    <p>Cabo Frio - RJ, 28908-120</p>
                 </div>
                 <div className="itemContact">
                     <h3>Telefones</h3>
-                    <p><IoCallOutline/> (22) 2161-0101</p>
-                    <p><IoLogoWhatsapp/> (22) 99994-2800 </p>
+                    <p><IoCallOutline/> (22) 3031-3417</p>
+                    <p><IoLogoWhatsapp/> (22) 3031-3417 </p>
                 </div>
                 <div className="itemContact">
                     <h3>Email</h3>
-                    <p><IoMailOutline/> contato@cpaedu.com.br</p>
+                    <p><IoMailOutline/> clientes@goldenpath.com.br</p>
                 </div>
                 <div className="social">
                 <h3>Redes sociais</h3>

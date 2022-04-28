@@ -3,7 +3,7 @@ import "./preRegistration.css"
 function PreRegistration() {
     return (
         <div className="preRegistration">
-            <h2>Entre em contato com nossa equipe!</h2>
+            <h1>Entre em contato com nossa equipe!</h1>
             <form action="">
                 <div className="bloco">
                 <input type="text" placeholder="Nome"/>

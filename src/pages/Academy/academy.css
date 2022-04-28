@@ -1,0 +1,83 @@
+.Academy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--Black);
+}
+
+.Academy .imageAcademy {
+    width: 250px;
+    margin: 50px;
+}
+.Academy .imageAcademy img {
+    width: 100%;
+}
+.Academy .textAcademy h1 {
+    color: var(--Primary);
+    text-align: center;
+    margin: 10px;
+}
+.Academy .textAcademy p {
+    color: var(--White);
+    text-align: center;
+    margin: 10px 100px;
+}
+.Academy .buttonsAcademy {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Academy .buttonsAcademy a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.Academy .coursesAcademy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px 0;
+}
+.Academy .coursesAcademy .course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    background-color: var(--Gray3);
+    padding: 10px;
+}
+
+.Academy .coursesAcademy .course p {
+    font-size: 14px;
+}
+.Academy .coursesAcademy .course a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+}

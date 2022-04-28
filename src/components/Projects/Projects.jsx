@@ -9,7 +9,7 @@ function Projects() {
         arrows: false,
         infinite: true,
         autoplay:true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         speed: 500,
         slidesToShow: 5,
         slidesToScroll: 1,

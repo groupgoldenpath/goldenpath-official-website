@@ -1,4 +1,6 @@
 import {Route, Routes} from 'react-router-dom';
+import { Academy } from '../pages/Academy/Academy';
+import { Aplications } from '../pages/Applications/Applications';
 import { Company } from '../pages/Company/Company';
 import { Contact } from '../pages/Contact/Contact';
 import { Evolution } from '../pages/Evolution/Evolution';
@@ -15,11 +17,10 @@ function Router () {
                 <Route path="/goldenpath" element={<Company />}/>            
                 <Route path="/rentabilidade" element={<Rentability />}/>            
                 <Route path="/evolution" element={<Evolution />}/>            
-                <Route path="/gpx" element={<GPX />}/>            
-                <Route path="/robos" element={<Home />}/>            
+                <Route path="/gpx" element={<GPX />}/>           
                 <Route path="/projetos" element={<Home />}/>            
-                <Route path="/cursos" element={<Home />}/>            
-                <Route path="/aplicativos" element={<Home />}/>            
+                <Route path="/academy" element={<Academy />}/>            
+                <Route path="/vipcar" element={<Aplications />}/>            
                 <Route path="/contato" element={<Contact />}/>           
                 <Route path="/resultado/:result" element={<ResultQuiz />}/>  
 
