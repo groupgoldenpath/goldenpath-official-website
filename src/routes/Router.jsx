@@ -6,6 +6,7 @@ import { Contact } from '../pages/Contact/Contact';
 import { Evolution } from '../pages/Evolution/Evolution';
 import { GPX } from '../pages/GPX/GPX';
 import { Home } from '../pages/Home';
+import { Projects } from '../pages/Projects/Projects';
 import { Rentability } from '../pages/Rentability/Rentability';
 import { ResultQuiz } from '../pages/ResultQuiz/ResultQuiz';
 import { SignIn } from '../pages/SignIn/SignIn';
@@ -18,7 +19,7 @@ function Router () {
                 <Route path="/rentabilidade" element={<Rentability />}/>            
                 <Route path="/evolution" element={<Evolution />}/>            
                 <Route path="/gpx" element={<GPX />}/>           
-                <Route path="/projetos" element={<Home />}/>            
+                <Route path="/projetos" element={<Projects />}/>            
                 <Route path="/academy" element={<Academy />}/>            
                 <Route path="/vipcar" element={<Aplications />}/>            
                 <Route path="/contato" element={<Contact />}/>           

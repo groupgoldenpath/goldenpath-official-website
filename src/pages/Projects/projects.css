@@ -1,0 +1,222 @@
+.Projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--Black);
+}
+
+.Projects .imageProjects {
+    width: 250px;
+    margin-top: 50px;
+}
+.Projects .imageProjects img {
+    width: 100%;
+}
+.Projects .textProjects h1 {
+    color: var(--Primary);
+    text-align: center;
+}
+.Projects .textProjects p {
+    color: var(--White);
+    text-align: center;
+    margin: 10px 100px;
+}
+.Projects .buttonsProjects {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Projects .buttonsProjects a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.Projects .app  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 60px 0;
+}
+.Projects .app .text  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 30px
+}
+.Projects .app .text h1 {
+    color: var(--Primary);
+}
+.Projects .app .text img {
+    width: 150px;
+}
+.Projects .app .text p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Projects .app .text .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.Projects .app .text .download img{
+    margin: 10px;
+    width: 30%;
+}
+.Projects .app .imageApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Projects .app .imageApp img {
+    width: 50%;
+}
+.Projects .imageProjectsCast {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+.Projects .imageProjectsCast img {
+    width: 100%;
+}
+.Projects .textProjects h1 {
+    color: var(--Primary);
+    text-align: center;
+}
+.Projects .textProjects p {
+    color: var(--White);
+    text-align: center;
+    margin: 10px 100px;
+}
+.Projects .buttonsProjects {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Projects .buttonsProjects a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.Projects .app  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 60px 0;
+}
+.Projects .app .text  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 30px
+}
+.Projects .app .text h1 {
+    color: var(--Primary);
+}
+.Projects .app .text img {
+    width: 150px;
+}
+.Projects .app .text p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Projects .app .text .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.Projects .app .text .download img{
+    margin: 10px;
+    width: 30%;
+}
+.Projects .app .imageApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Projects .app .imageApp img {
+    width: 50%;
+}
+
+.Projects .coursesProjects {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px 0;
+}
+
+
+.Projects .coursesProjects .course {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    background-color: var(--Gray3);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.Projects .coursesProjects .course p {
+    font-size: 14px;
+}
+.Projects .coursesProjects .course a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+}
