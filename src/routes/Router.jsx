@@ -1,5 +1,6 @@
 import {Route, Routes} from 'react-router-dom';
 import { Company } from '../pages/Company/Company';
+import { Contact } from '../pages/Contact/Contact';
 import { Evolution } from '../pages/Evolution/Evolution';
 import { GPX } from '../pages/GPX/GPX';
 import { Home } from '../pages/Home';
@@ -19,7 +20,7 @@ function Router () {
                 <Route path="/projetos" element={<Home />}/>            
                 <Route path="/cursos" element={<Home />}/>            
                 <Route path="/aplicativos" element={<Home />}/>            
-                <Route path="/contato" element={<Home />}/>           
+                <Route path="/contato" element={<Contact />}/>           
                 <Route path="/resultado/:result" element={<ResultQuiz />}/>  
 
 
