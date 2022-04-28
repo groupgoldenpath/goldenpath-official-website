@@ -1,13 +1,23 @@
  .item {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    height: 400px;
+    height: 350px;
     border-radius: 8px;
     border: 10px solid var(--Black);
     background-color: var(--Gray3);
     margin:20px 0;
     padding: 10px;
+
+}
+ .item img {
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+ .item p {
+    text-align:left;
+    font-size: 14px;
 }
 

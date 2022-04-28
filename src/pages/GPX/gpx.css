@@ -4,7 +4,10 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: var(--Black);
+    background-image: url(../../assets/images/backgrounds/invest1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 .gpx .imageGpx {

@@ -12,7 +12,10 @@
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Black)
+    background-image: url(../../assets/images/backgrounds/backgoundQuiz.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
 .resultQuiz .section .text {
     display: flex;
