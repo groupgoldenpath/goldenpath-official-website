@@ -38,7 +38,7 @@
     width: 100%;
     margin: 20px 0;
 }
-.welcome .text .buttons button {
+.welcome .text .buttons a {
     background-color: var(--Primary);
     color: var(--White);
     padding: 10px;
@@ -46,8 +46,10 @@
     border-radius: 6px;
     margin: 10px;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
 }
-.welcome .text .buttons button:hover {
+.welcome .text .buttons a:hover {
     background-color: var(--Hover)
 }
 .welcome .text .buttons .select {
@@ -58,6 +60,8 @@
     border-radius: 6px;
     margin: 10px;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
 }
 .welcome .text .buttons .select:hover {
     background-color: var(--Primary)

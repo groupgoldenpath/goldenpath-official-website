@@ -1,0 +1,47 @@
+.gpx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--Black);
+}
+
+.gpx .imageGpx {
+    width: 250px;
+    margin: 50px;
+}
+.gpx .imageGpx img {
+    width: 100%;
+}
+.gpx .textGpx h1 {
+    color: var(--Primary);
+    text-align: center;
+    margin: 10px;
+}
+.gpx .textGpx p {
+    color: var(--White);
+    text-align: center;
+    margin: 10px 100px;
+}
+.gpx .buttonsGpx {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.gpx .buttonsGpx a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--Primary);
+    color: var(--White);
+    padding:10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}

@@ -8,6 +8,7 @@ import Moderado from "../../assets/images/moderado.png"
 import Arrojado from "../../assets/images/arrojado.png"
 import Trader from "../../assets/images/trader.png"
 import "./resultQuiz.css"
+import { PreRegistration } from "../../components/PreRegistration/PreRegistration";
 
 function ResultQuiz() {
     const {result} = useParams();
@@ -41,6 +42,7 @@ function ResultQuiz() {
             <div className="warning">
                 <p></p>
             </div>
+            <PreRegistration />
             <Footer />
         </div>
     )

@@ -5,8 +5,7 @@
     flex-direction: column;
     width: 100%;
     background-color: var(--Black);
-    margin-top: 40px;
-    padding: 40px 0;
+    padding: 40px 0 60px 0;
     color: var(--White);
 }
 

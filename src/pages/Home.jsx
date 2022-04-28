@@ -18,7 +18,10 @@ function Home() {
         <Saudation />
         <Video link={"https://www.youtube.com/embed/gJyqttMFHh4"} width={560} height={315}/>
         <Quiz />
+        <div className="projectsHome">
+            <h2>Conheça nossos projetos</h2>
         <Projects />
+        </div>
         <PreRegistration />
         <Market />
         <Footer />

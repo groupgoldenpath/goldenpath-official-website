@@ -38,7 +38,7 @@ function Footer() {
             </div>
             <div className="copy">
                 <div className="company">
-                    <p>{date.getFullYear()} - &copy; Golden Path. Todos os direitos reservados</p>
+                    <p>{date.getFullYear()} &copy; Golden Path. Todos os direitos reservados</p>
                 </div>
                 <div className="dev">
                     <p>Feito por Coding.It</p>

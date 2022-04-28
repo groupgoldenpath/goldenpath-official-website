@@ -3,8 +3,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    width: 250px;
-    height: 450px;
+    height: 400px;
     border-radius: 8px;
     border: 3px solid var(--Primary);
     background-color: var(--Black);

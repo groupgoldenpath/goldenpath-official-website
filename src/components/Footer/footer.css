@@ -77,10 +77,9 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Black);
+    background-color: var(--Gray3);
     font-size: 12px;
     padding: 10px;
-    border-top: 1px solid var(--Primary)
 }
 .footer .copy .company {
     display: flex;
@@ -95,5 +94,4 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Black);
 }

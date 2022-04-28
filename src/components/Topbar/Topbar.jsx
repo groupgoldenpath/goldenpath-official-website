@@ -1,5 +1,5 @@
 import logo from '../../assets/images/logo.png';
-import {FaTelegram, FaYoutube, FaWhatsapp, FaInstagram} from 'react-icons/fa';
+import {FaTelegram, FaYoutube, FaWhatsapp, FaInstagram, FaSearch} from 'react-icons/fa';
 import './topbar.css'
 
 function Topbar() {
@@ -7,7 +7,8 @@ function Topbar() {
         <div className="topbar">
             <div className="top1">
                 <div className="search">
-                  <input type="search" />
+                  <input type="search" placeholder="Buscar"/>
+                  <FaSearch />
                 </div>
 
             <div className="img">
@@ -17,10 +18,11 @@ function Topbar() {
             </div>
 
             <div className="social">
-                <p><FaTelegram /></p>
-                <p><FaWhatsapp /></p>
-                <p><FaInstagram /></p>
-                <p><FaYoutube /></p>
+                
+                <div className="icon"><a href=""><FaTelegram /></a></div>
+                <div className="icon"><a href=""><FaWhatsapp /></a></div>
+                <div className="icon"><a href=""><FaInstagram /></a></div>
+                <div className="icon"><a href=""><FaYoutube /></a></div>
             </div>
             </div>
         </div>

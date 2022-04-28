@@ -1,0 +1,10 @@
+.projectsHome {
+    background-color: var(--Black);
+    margin-top:40px;
+    padding-top:40px;
+    text-align: center;
+}
+.projectsHome h2 {
+    margin-bottom:20px;
+    text-align: center;
+}

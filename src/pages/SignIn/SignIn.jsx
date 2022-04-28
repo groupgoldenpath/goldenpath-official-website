@@ -1,3 +1,4 @@
+import "./signIn.css";
 function SignIn() {
     return (
         <div className="SignIn">
@@ -7,7 +8,10 @@ function SignIn() {
                 <input type="password" placeholder="Senha"/>
 
                 <button>Entrar</button>
+                <a href="/">Ir para site oficial</a>
             </form>
         </div>
     )
 }
+
+export { SignIn }

@@ -23,6 +23,16 @@
     justify-content: space-around;
     flex-direction: row;
     width: 300px;
+    background-color: var(--White);
+    border-radius: 6px;
+    color: var(--Black);
+    padding:5px 10px;
+}
+.topbar .top1 .search input{
+    border:none;
+    padding: 5px;
+    width: 100%;
+    margin: 0 10px;
 }
 
 .topbar .top1 .img {
@@ -49,4 +59,20 @@
     justify-content: space-evenly;
     flex-direction: row;
     width: 300px;
+}
+.topbar .top1 .social .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--Primary)
+}
+.topbar .top1 .social .icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: var(--White);
 }

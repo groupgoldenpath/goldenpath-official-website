@@ -12,8 +12,8 @@ function Saudation() {
 Invista hoje com a Golden!</p>
 
 <div className="buttons">
-    <button>Entrar em contato</button>
-    <button className="select">Mais sobre a Golden Path</button>
+    <a href="/contato">Entrar em contato</a>
+    <a href="/goldenpath" className="select">Mais sobre a Golden Path</a>
 </div>
             </div>
             <div className="image">
