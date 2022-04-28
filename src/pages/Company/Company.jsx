@@ -1,11 +1,16 @@
 import "./company.css"
 import smartphone from '../../assets/images/smartphone.png'
 import ceo from '../../assets/images/ceo.jpg'
+import { Footer } from "../../components/Footer/Footer"
+import { Topbar } from "../../components/Topbar/Topbar"
+import Navbar from "../../components/Navbar/Navbar"
 function Company() {
     return (
         <div className="company">
+            <Topbar />
+            <Navbar />
             <div className="text">
-                <h2>Conheça a golden path</h2>
+                <h1>Conheça a golden path</h1>
                 <p>O Grupo Golden Path é uma empresa de soluções tecnológicas voltadas para o mercado financeiro. Com sede na cidade de Cabo Frio, Rio de Janeiro, a ídeia surgiu do empresário Cristiano Toledo, que visa proporcionar á todos o acesso ao mercado financeiro e a ferramentas de automação. </p>
             </div>
             <div className="certificate">
@@ -16,9 +21,12 @@ function Company() {
               <p>Aliquam ullamcorper tempus est, ac ullamcorper nisi. Nullam bibendum dictum ante a convallis. Mauris tempus elit vitae varius convallis. Proin mattis urna a ipsum blandit, vel laoreet arcu fermentum. Proin ornare sem at mauris fringilla ultrices. In elit ex, consectetur ut lacus id, feugiat eleifend nunc. Phasellus tristique, ipsum sit amet semper dignissim, est nulla pharetra mi, a finibus lectus lacus sed purus.</p>
                 </div>
             </div>
-            <div className="CEO">
+            <div className="ceo">
+                <div className="text">
+             <h2>Nosso fundador</h2>
+                </div>
                 <div className="image">
-                <img src={smartphone} alt="Certificados golden path" />
+                <img src={ceo} alt="Certificados golden path" />
                 </div>
                 <div className="text">
               <p>Aliquam ullamcorper tempus est, ac ullamcorper nisi. Nullam bibendum dictum ante a convallis. Mauris tempus elit vitae varius convallis. Proin mattis urna a ipsum blandit, vel laoreet arcu fermentum. Proin ornare sem at mauris fringilla ultrices. In elit ex, consectetur ut lacus id, feugiat eleifend nunc. Phasellus tristique, ipsum sit amet semper dignissim, est nulla pharetra mi, a finibus lectus lacus sed purus.</p>
@@ -38,6 +46,7 @@ function Company() {
                     <p>Respeito à diversidade, colaboração, inovação, compromisso com nosssos clientes e parceiros, confiança e paixão com foco nos resultados.</p>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
