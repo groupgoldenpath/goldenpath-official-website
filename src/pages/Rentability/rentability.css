@@ -34,11 +34,10 @@
     justify-content: center;
     flex-direction: row;
     width: 80%;
-    background-color: var(--Black);
+    background-color: var(--Gray4);
     text-align: center;
     border-radius: 6px;
     margin: 40px 0;
-    box-shadow: 0px 0px 20px 5px rgba(204, 163, 84, 0.2);
 }
 .rentability .aport .values {
     display: flex;

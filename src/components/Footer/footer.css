@@ -4,8 +4,7 @@
     justify-content:center;
     flex-direction: column;
     width: 100%;
-    background-color: var(--Black);
-    border-top: 1px solid var(--Primary)
+    background-color: var(--Gray4);
 }
 .footer .blocos {
     display: flex;
@@ -77,7 +76,7 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Gray3);
+    background-color: var(--Gray5);
     font-size: 12px;
     padding: 10px;
 }
@@ -87,7 +86,7 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Gray3);
+    background-color: var(--Gray5);
 }
 .footer .copy .dev {
     display: flex;
@@ -95,5 +94,5 @@
     justify-content:center;
     flex-direction: row;
     width: 100%;
-    background-color: var(--Gray3);
+    background-color: var(--Gray5);
 }

@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
 }
 
@@ -84,7 +84,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin: 5px 0;
+    margin: 20px 0;
 }
 .company .ceo .text h2 {
     color: var(--Primary);
@@ -96,7 +96,7 @@
     flex-direction: row;
     width: 80%;
     text-align: center;
-    margin: 40px 0;
+    margin: 0 0 40px 0;
 }
 
 .company .atributes .text {

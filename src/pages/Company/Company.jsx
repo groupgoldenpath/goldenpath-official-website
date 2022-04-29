@@ -18,6 +18,7 @@ function Company() {
                         <img src={smartphone} alt="Certificados golden path" />
                 </div>
                 <div className="text">
+                    <h2>Certificados</h2>
               <p>Aliquam ullamcorper tempus est, ac ullamcorper nisi. Nullam bibendum dictum ante a convallis. Mauris tempus elit vitae varius convallis. Proin mattis urna a ipsum blandit, vel laoreet arcu fermentum. Proin ornare sem at mauris fringilla ultrices. In elit ex, consectetur ut lacus id, feugiat eleifend nunc. Phasellus tristique, ipsum sit amet semper dignissim, est nulla pharetra mi, a finibus lectus lacus sed purus.</p>
                 </div>
             </div>
